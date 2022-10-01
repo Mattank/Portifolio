@@ -124,6 +124,9 @@
   min-height: 100vh;
   text-align: center;
 }
+.contactContent h2{
+  font-size: 5rem;
+}
 .contactForm{
   grid-column: span 2;
 }
