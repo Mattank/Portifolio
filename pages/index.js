@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
     <Head>
-      <title>Mattank Developer</title>
+      <title>Mattank Desenvolvedor</title>
       <meta name="description" content="Portifolio de desenvolvimento" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
@@ -20,10 +20,10 @@ export default function Home() {
         </h1>
         <nav>
           <ul>
-            <li><AnchorLink href="#intro">Intro</AnchorLink></li>
-            <li><AnchorLink href="#aboutMe">About me</AnchorLink></li>
-            <li><AnchorLink href="#projects">Projects</AnchorLink></li>
-            <li><AnchorLink href="#contact">Contact</AnchorLink></li>
+            <li><AnchorLink href="#intro">Inicio</AnchorLink></li>
+            <li><AnchorLink href="#aboutMe">Sobre mim</AnchorLink></li>
+            <li><AnchorLink href="#projects">Projetos</AnchorLink></li>
+            <li><AnchorLink href="#contact">Contato</AnchorLink></li>
           </ul>
         </nav>
       </div>
@@ -32,37 +32,32 @@ export default function Home() {
     <section className={styles.intro+' '+styles.mainBg+' '+styles.section}>
       <div className={styles.mainContent+' '+styles.introContent}>
           <div className={styles.introTextContent}>
-              <h2>Teste</h2>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa beatae aliquid, totam libero ut sequi nobis, vitae magni quisquam ipsa laudantium cumque assumenda excepturi, laboriosam dolorum tenetur nisi perferendis a.</p>
+              <h2>Desenvolvedor Web</h2>
+              <p>Texto sobre mim e sobre o que podem esperar de mim</p>
           </div>
       </div>
     </section>
     <section id="aboutMe" className={styles.section+' '+styles.secBg}>
         <div className={styles.mainContent+' '+styles.aboutMeContent}>
-            <h2>About me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa beatae aliquid, totam libero ut sequi nobis, vitae magni quisquam ipsa laudantium cumque assumenda excepturi, laboriosam dolorum tenetur nisi perferendis a.</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa beatae aliquid, totam libero ut sequi nobis, vitae magni quisquam ipsa laudantium cumque assumenda excepturi, laboriosam dolorum tenetur nisi perferendis a.</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa beatae aliquid, totam libero ut sequi nobis, vitae magni quisquam ipsa laudantium cumque assumenda excepturi, laboriosam dolorum tenetur nisi perferendis a.</p>
+            <h2>Sobre mim</h2>
+            <p>Resumo da minha tragetoria até aqui</p>
         </div>
     </section>
     <section id="projects" className={styles.section}>
         <div className={styles.mainContent+' '+styles.gridContent}>
-            <h2>Projects</h2>
+            <h2><center>Principais Projetos</center></h2>
             <div className={styles.grid}>
               <article>
                 <h3>Projeto 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa beatae aliquid, totam libero ut sequi nobis, vitae magni quisquam ipsa laudantium cumque assumenda excepturi, laboriosam dolorum tenetur nisi perferendis a.</p>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa beatae aliquid, totam libero ut sequi nobis, vitae magni quisquam ipsa laudantium cumque assumenda excepturi, laboriosam dolorum tenetur nisi perferendis a.</p>
               </article>
               <article>
               <h3>Projeto 2</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa beatae aliquid, totam libero ut sequi nobis, vitae magni quisquam ipsa laudantium cumque assumenda excepturi, laboriosam dolorum tenetur nisi perferendis a.</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa beatae aliquid, totam libero ut sequi nobis, vitae magni quisquam ipsa laudantium cumque assumenda excepturi, laboriosam dolorum tenetur nisi perferendis a.</p>
               </article>
               <article>
               <h3>Projeto 3</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa beatae aliquid, totam libero ut sequi nobis, vitae magni quisquam ipsa laudantium cumque assumenda excepturi, laboriosam dolorum tenetur nisi perferendis a.</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa beatae aliquid, totam libero ut sequi nobis, vitae magni quisquam ipsa laudantium cumque assumenda excepturi, laboriosam dolorum tenetur nisi perferendis a.</p>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa beatae aliquid, totam libero ut sequi nobis, vitae magni quisquam ipsa laudantium cumque assumenda excepturi, laboriosam dolorum tenetur nisi perferendis a.</p>
               </article>
             </div>
         </div>
