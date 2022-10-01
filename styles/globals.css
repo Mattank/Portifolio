@@ -1,23 +1,25 @@
 :root {
-  --primary-color:#06DB01;
-  --primary-color-dark:#028A00;
-  --primary-color-light:#ABF000;
-  --secundary-color:#8C3CF2;
-  --third-color:#3013BD;
+  --primary-color:#0110F0;
+  --primary-color-dark:#350BD9;
+  --primary-color-light:#0B4FD9;
+  --secondary-color:#0C98F8;
+  --third-color:#7D0CF8;
   --gap:3rem;
 }
 *{
-
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-html{
+html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 body{
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
   color:var(--third-color);
+  line-height: 1.5;
 }
 h1, h2, h3, h4, h5, h6{
   font-family: 'Montserrat', sans-serif;
@@ -27,7 +29,10 @@ h1{
   text-transform: uppercase;
 }
 h2{
-  font-size: 5.5rem;
+  font-size: 6rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height:1.2;
   
 }
 h3{
@@ -48,4 +53,7 @@ h6{
 }
 a{
   text-decoration:none;
+}
+p{
+  margin-bottom: 3rem;
 }
