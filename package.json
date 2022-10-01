@@ -1,25 +1,20 @@
 {
   "name": "portifolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev":"next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mattank/Portifolio.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Mattank/Portifolio/issues"
-  },
-  "homepage": "https://github.com/Mattank/Portifolio#readme",
   "dependencies": {
-    "next": "^12.3.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1"
   }
 }
