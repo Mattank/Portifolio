@@ -150,7 +150,7 @@
   background:white;
   padding: 1.5rem 2rem;
   width: 100%;
-  font-size: 3rem;
+  font-size: 2.5rem;
   outline: none;
 }
 .formGroup textarea{
@@ -165,7 +165,7 @@ body .fullWidth{
   background:none;
   color: white;
   padding: 1.5rem 2rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
   cursor:pointer;
   transition: all 300ms ease-in-out;
 }
