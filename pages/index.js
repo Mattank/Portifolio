@@ -9,14 +9,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
     <Head>
-      <title>Mattank Desenvolvedor</title>
+      <title>Matheus Freitas</title>
       <meta name="description" content="Portifolio de desenvolvimento" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <header className={styles.menu}>
       <div className={styles.mainContent+' '+styles.menuContent}>
         <h1>
-            <Link href="#"><a>Mattank</a></Link>
+            <Link href="#"><a>Matheus Freitas</a></Link>
         </h1>
         <nav>
           <ul>
