@@ -16,25 +16,17 @@ export default function Home() {
     <header className={styles.menu}>
       <div className={styles.mainContent+' '+styles.menuContent}>
         <h1>
-<<<<<<< HEAD
             <Link href="#"><a>
               <Image src="/images/logo.png"
               width="50%"
               height="50%"
               alt="Matheus Freitas"/>
             </a></Link>
-=======
-            <Link href="#"><a>Matheus Freitas</a></Link>
->>>>>>> 7f93b8af009bf4b456a807684421b282742e5332
         </h1>
         <nav>
           <ul>
             <li><AnchorLink href="#intro">Inicio</AnchorLink></li>
-<<<<<<< HEAD
             <li><AnchorLink href="#aboutMe">Sobre</AnchorLink></li>
-=======
-            <li><AnchorLink href="#aboutMe">Sobre mim</AnchorLink></li>
->>>>>>> 7f93b8af009bf4b456a807684421b282742e5332
             <li><AnchorLink href="#projects">Projetos</AnchorLink></li>
             <li><AnchorLink href="#contact">Contato</AnchorLink></li>
           </ul>
@@ -45,14 +37,9 @@ export default function Home() {
     <section className={styles.intro+' '+styles.mainBg+' '+styles.section}>
       <div className={styles.mainContent+' '+styles.introContent}>
           <div className={styles.introTextContent}>
-<<<<<<< HEAD
               <h2>Desenvolvedor Web FullStack</h2>
               <p>Apaixonado por desenvolvimento web 
                 e sempre procurando aprimiorar os horizontes. Vamos trabalhar juntos para atingir os objetivos da sua empresa.</p>
-=======
-              <h2>Desenvolvedor Web</h2>
-              <p>Texto sobre mim e sobre o que podem esperar de mim</p>
->>>>>>> 7f93b8af009bf4b456a807684421b282742e5332
           </div>
       </div>
     </section>
@@ -64,28 +51,12 @@ export default function Home() {
     </section>
     <section id="projects" className={styles.section}>
         <div className={styles.mainContent+' '+styles.gridContent}>
-<<<<<<< HEAD
             <h2><center>Projetos</center></h2>
             <h3><center>Seja o primeiro a ter sua empresa aqui!</center></h3>
             <div className={styles.grid}>              
               <article>
                 <h3></h3>
                 <p></p>
-=======
-            <h2><center>Principais Projetos</center></h2>
-            <div className={styles.grid}>
-              <article>
-                <h3>Projeto 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa beatae aliquid, totam libero ut sequi nobis, vitae magni quisquam ipsa laudantium cumque assumenda excepturi, laboriosam dolorum tenetur nisi perferendis a.</p>
-              </article>
-              <article>
-              <h3>Projeto 2</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa beatae aliquid, totam libero ut sequi nobis, vitae magni quisquam ipsa laudantium cumque assumenda excepturi, laboriosam dolorum tenetur nisi perferendis a.</p>
-              </article>
-              <article>
-              <h3>Projeto 3</h3>
-               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa beatae aliquid, totam libero ut sequi nobis, vitae magni quisquam ipsa laudantium cumque assumenda excepturi, laboriosam dolorum tenetur nisi perferendis a.</p>
->>>>>>> 7f93b8af009bf4b456a807684421b282742e5332
               </article>
             </div>
         </div>
