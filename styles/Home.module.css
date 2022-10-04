@@ -1,5 +1,5 @@
 .mainBg{ 
-  /*background-image: url('../public/main-bg.png');*/
+  background-image: url('../public/mat-bg.png');
   background-color: white;
   background-size: cover;
   background-position: center center;
@@ -25,7 +25,7 @@
   padding: var(--gap);
 }
 .section{
-  min-min-height: 93vh;
+  min-height: 93vh;
 }
 .menuSpacing{
   min-height:6.5rem;
@@ -51,7 +51,7 @@
   font-size: 2rem;
   color:var(--primary-color-dark);
   display:block;
-  padding: 2rem;
+  padding-top: 1rem;
 }
 .menu h1 a{
   color: inherit;
@@ -124,6 +124,9 @@
   min-height: 100vh;
   text-align: center;
 }
+.contactContent h2{
+  font-size: 5rem;
+}
 .contactForm{
   grid-column: span 2;
 }
@@ -147,7 +150,7 @@
   background:white;
   padding: 1.5rem 2rem;
   width: 100%;
-  font-size: 3rem;
+  font-size: 2.5rem;
   outline: none;
 }
 .formGroup textarea{
@@ -162,7 +165,7 @@ body .fullWidth{
   background:none;
   color: white;
   padding: 1.5rem 2rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
   cursor:pointer;
   transition: all 300ms ease-in-out;
 }
