@@ -50,7 +50,7 @@
 .menu h1{
   font-size: 2rem;
   color:var(--primary-color-dark);
-  display:block;
+  display:inline-flex;
   padding-top: 1rem;
 }
 .menu h1 a{

@@ -4,7 +4,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
-
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -21,7 +20,8 @@ export default function Home() {
               width="50%"
               height="50%"
               alt="Matheus Freitas"/>
-            </a></Link>
+            </a>
+            </Link>
         </h1>
         <nav>
           <ul>
@@ -37,6 +37,7 @@ export default function Home() {
     <section className={styles.intro+' '+styles.mainBg+' '+styles.section}>
       <div className={styles.mainContent+' '+styles.introContent}>
           <div className={styles.introTextContent}>
+              <h4>Matheus Freitas</h4>
               <h2>Desenvolvedor Web FullStack</h2>
               <p>Apaixonado por desenvolvimento web 
                 e sempre procurando aprimiorar os horizontes. Vamos trabalhar juntos para atingir os objetivos da sua empresa.</p>
@@ -46,7 +47,7 @@ export default function Home() {
     <section id="aboutMe" className={styles.section+' '+styles.secBg}>
         <div className={styles.mainContent+' '+styles.aboutMeContent}>
             <h2>Sobre mim</h2>
-            <p>Resumo da minha tragetoria até aqui</p>
+            <p>Resumo da minha trajetoria até aqui</p>
         </div>
     </section>
     <section id="projects" className={styles.section}>
