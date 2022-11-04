@@ -39,7 +39,7 @@ export default function Home() {
     <section className={styles.intro+' '+styles.mainBg+' '+styles.section}>
       <div className={styles.mainContent+' '+styles.introContent}>
           <div className={styles.introTextContent}>
-              <h4>Teste</h4>
+              <h4>Matheus Freitas</h4>
               <h2>Desenvolvedor Web FullStack</h2>
               <p>Apaixonado por desenvolvimento web 
                 e sempre procurando aprimiorar os horizontes. Vamos trabalhar juntos para atingir os objetivos da sua empresa.</p>
