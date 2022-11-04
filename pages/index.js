@@ -12,6 +12,8 @@ export default function Home() {
       <meta name="description" content="Portifolio de desenvolvimento" />
       <link rel="icon" href="/favicon.png" />
     </Head>
+    <input id="closeMenu" className={styles.closeMenu} type="checkbox" aria-label="Close menu" role="button"/>
+    <label className={styles.closeMenuLabel} for="closeMenu" title="close menu"></label>
     <header className={styles.menu}>
       <div className={styles.mainContent+' '+styles.menuContent}>
         <h1>
@@ -24,7 +26,7 @@ export default function Home() {
             </Link>
         </h1>
         <nav>
-          <ul>
+          <ul onclick="document.getElementById('closeMenu').checked = false;">
             <li><AnchorLink href="#intro">Inicio</AnchorLink></li>
             <li><AnchorLink href="#aboutMe">Sobre</AnchorLink></li>
             <li><AnchorLink href="#projects">Projetos</AnchorLink></li>
@@ -37,18 +39,26 @@ export default function Home() {
     <section className={styles.intro+' '+styles.mainBg+' '+styles.section}>
       <div className={styles.mainContent+' '+styles.introContent}>
           <div className={styles.introTextContent}>
-              <h4>Matheus Freitas</h4>
+              <h4>Teste</h4>
               <h2>Desenvolvedor Web FullStack</h2>
               <p>Apaixonado por desenvolvimento web 
                 e sempre procurando aprimiorar os horizontes. Vamos trabalhar juntos para atingir os objetivos da sua empresa.</p>
           </div>
+          <div className={styles.introTextContent}>
+            <Image src="/images/intro-img.png"
+              width="1920px"
+              height="1080px"
+              alt="Designer"/>
+          </div>
       </div>
+      
+          
     </section>
     <section id="aboutMe" className={styles.section+' '+styles.secBg}>
-        <div className={styles.mainContent+' '+styles.aboutMeContent}>
-            <h2>Sobre mim</h2>
-            <p>Resumo da minha trajetoria até aqui</p>
-        </div>
+      <div className={styles.mainContent+' '+styles.aboutMeContent}>
+        <h2>Sobre mim</h2>
+        <p>Resumo da minha trajetoria até aqui</p>
+      </div>
     </section>
     <section id="projects" className={styles.section}>
         <div className={styles.mainContent+' '+styles.gridContent}>

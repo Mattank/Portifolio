@@ -1,5 +1,5 @@
 .mainBg{ 
-  background-image: url('../public/mat-bg.png');
+  /*background-image: url('../public/mat-bg.png');*/
   background-color: white;
   background-size: cover;
   background-position: center center;
@@ -177,5 +177,72 @@ body .fullWidth{
 .formGroup input:focus,
 .formGroup textarea:focus{
   box-shadow:0 0 1.5rem 0.2rem var(--secondary-color);
+}
+
+@media (max-width: 800px){
+  .introContent{   
+    grid-template-columns: 1fr;
+  }
+  .menu{
+    bottom: 0;
+    text-align: center;
+    display: none;
+  }
+  .menuContent{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .menuContent ul{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .menuContent{
+    height: 100vh;
+  }
+  .closeMenu{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    display:block;
+  }
+  .closeMenuLabel::after{
+    content: '≡';
+    position: fixed;
+    z-index: 2;
+    top: 2rem;
+    right: 2rem;
+    background: var(--primary-color-dark);
+    color: white;
+    font-size: 3rem;
+    line-height: 3rem;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    cursor: pointer;
+  }/*×*/
+  .closeMenu:checked~.menu{
+    display:block;
+  }
+  .closeMenu:checked~.closeMenuLabel::after{
+    content:"×";
+  }
+  .menuSpacing{
+    display:none;
+  }
+  .introContent{
+    position: relative;
+    top: -8rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:var(--gap);
+    min-height:100vh;
+  }
+  .fechaMenu{
+    display:block;    
+  }
+  .fechaMenu:checked~.menu{
+    display:none;
+  }
 }
 
